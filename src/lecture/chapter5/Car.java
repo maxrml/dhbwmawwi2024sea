@@ -36,7 +36,7 @@ class Car {
     }
   }
 
-  void printCarDetails(){
+  void printCarDetails(this.brand, this.color, this.hp, this.licensePlate, this.wheelColor.name, this.wheelColor.colorHexCode){
     System.out.println("Mein Auto ist ein " + myCar.brand
       + " in der Farbe " + myCar.color
       + " mit " + myCar.hp + " PS"
